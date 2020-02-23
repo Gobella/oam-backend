@@ -3,7 +3,7 @@ package env
 
 import (
 	"github.com/astaxie/beego/logs"
-	"github.com/oam-apiserver/common"
+	"github.com/oam-backend/common"
 )
 
 //control the initial sequence

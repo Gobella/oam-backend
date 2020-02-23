@@ -1,6 +1,6 @@
 package models
 
-import "github.com/oam-apiserver/kube_api"
+import "github.com/oam-backend/kube_api"
 
 const (
 	FreshDeployChangeType  = "freshDeploy"

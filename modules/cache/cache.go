@@ -2,8 +2,8 @@ package cache
 
 import (
 	"fmt"
-	"github.com/oam-apiserver/common"
-	"github.com/oam-apiserver/models"
+	"github.com/oam-backend/common"
+	"github.com/oam-backend/models"
 	"sync"
 	"time"
 )

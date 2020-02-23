@@ -2,13 +2,13 @@ package controllers
 
 import (
 	"encoding/json"
-	"github.com/oam-apiserver/modules"
+	"github.com/oam-backend/modules"
 	"time"
 
 	"github.com/astaxie/beego"
-	"github.com/oam-apiserver/common"
-	"github.com/oam-apiserver/models"
-	"github.com/oam-apiserver/modules/cache"
+	"github.com/oam-backend/common"
+	"github.com/oam-backend/models"
+	"github.com/oam-backend/modules/cache"
 )
 
 type APPController struct {

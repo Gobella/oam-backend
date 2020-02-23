@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"],
+    beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"],
         beego.ControllerComments{
             Method: "CreateApp",
             Router: `/app`,
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"],
+    beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"],
         beego.ControllerComments{
             Method: "GetApps",
             Router: `/app`,
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"],
+    beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"],
         beego.ControllerComments{
             Method: "CreateChangeSheet",
             Router: `/app/changeSheet`,
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-apiserver/controllers:APPController"],
+    beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"] = append(beego.GlobalControllerRouter["github.com/oam-backend/controllers:APPController"],
         beego.ControllerComments{
             Method: "GetChangeSheet",
             Router: `/app/changeSheet`,

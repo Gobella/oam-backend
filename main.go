@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/astaxie/beego"
-	"github.com/oam-apiserver/env"
-	_ "github.com/oam-apiserver/routers"
+	"github.com/oam-backend/env"
+	_ "github.com/oam-backend/routers"
 )
 
 var (

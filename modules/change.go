@@ -12,10 +12,10 @@ import (
 	"yaml.v2"
 
 	"github.com/astaxie/beego/logs"
-	"github.com/oam-apiserver/common"
-	"github.com/oam-apiserver/kube_api"
-	"github.com/oam-apiserver/models"
-	"github.com/oam-apiserver/modules/cache"
+	"github.com/oam-backend/common"
+	"github.com/oam-backend/kube_api"
+	"github.com/oam-backend/models"
+	"github.com/oam-backend/modules/cache"
 )
 
 //! handle deploy tasks
