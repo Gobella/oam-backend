@@ -1,0 +1,6 @@
+logs
+.idea
+vendor.bak
+api-backend
+lastupdate.tmp
+.DS_Store
